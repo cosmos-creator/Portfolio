@@ -1,0 +1,9 @@
+body {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(#313866, #974ec3) no-repeat;
+  background-size: cover;
+  height: 100%;
+  font-size: 40px;
+}

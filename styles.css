@@ -1,0 +1,36 @@
+h1 {
+  font-size: 60px;
+  text-align: center;
+  font-family: "Caveat", cursive;
+}
+.title-br {
+  background-color: rgb(19, 209, 60);
+}
+.box {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Roboto Slab", serif;
+}
+body {
+  font-size: 25px;
+  background-image: linear-gradient(#1a1a2e, #144272, #000000, #0f3460);
+  text-align: center;
+  color: white;
+}
+img {
+  border-radius: 50%;
+  width: 340px;
+  height: 340px;
+  float: left;
+  margin-right: 30px;
+  border: 2px solid yellow;
+}
+
+ul {
+  list-style: none;
+}
+
+bold {
+  font-weight: 900;
+}
