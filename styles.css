@@ -34,3 +34,28 @@ ul {
 bold {
   font-weight: 900;
 }
+h6 {
+  text-align: center;
+}
+
+ul {
+  text-align: justify;
+}
+
+@media (max-width: 600px) {
+  img {
+    height: 200px;
+    width: 200px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  body {
+    display: flexbox;
+    text-align: start;
+  }
+  .heading-2 {
+    width: 100vh;
+    display: block;
+  }
+}
