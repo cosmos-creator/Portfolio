@@ -42,23 +42,28 @@ ul {
   text-align: justify;
 }
 
-@media (max-width: 395px) {
+@media (max-width: 720px) and (min-width: 300px) {
   img {
-    height: 200px;
-    width: 200px;
-    display: inline;
-    align-items: center;
-    justify-content: center;
+    display: inline-block;
+    /* height: 150px;
+    width: 150px; */
+    height: auto;
+    width: 100%;
     margin-left: auto;
     margin-right: 30px;
     margin-top: 20px;
     margin-bottom: 30px;
   }
+  .image-div {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
   .skill-div {
     display: block;
   }
   body {
-    font-size: small;
+    font-size: smaller;
   }
   .credits,
   .information {
@@ -69,5 +74,8 @@ ul {
   h1 {
     margin: 0;
     padding: 0;
+  }
+  .heading-2 {
+    display: block;
   }
 }
