@@ -42,11 +42,11 @@ ul {
   text-align: justify;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 392px) {
   img {
     height: 200px;
     width: 200px;
-    display: block;
+    display: inline;
     align-items: center;
     justify-content: center;
     margin-left: auto;
@@ -59,7 +59,6 @@ ul {
   }
   body {
     font-size: small;
-    text-align: left;
   }
   .credits,
   .information {
