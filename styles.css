@@ -42,7 +42,7 @@ ul {
   text-align: justify;
 }
 
-@media (max-width: 720px) and (min-width: 300px) {
+@media (max-width: 480px) {
   img {
     display: inline-block;
     /* height: 150px;
