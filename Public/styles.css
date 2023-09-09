@@ -5,5 +5,30 @@ body {
   background: linear-gradient(#313866, #974ec3) no-repeat;
   background-size: cover;
   height: 100%;
-  font-size: 40px;
+  font-size: 25px;
+  font-family: "Roboto Slab", serif;
+}
+h1 {
+  text-align: center;
+}
+.hey {
+  position: relative;
+  display: block;
+  font: 70px bold;
+  float: left;
+  width: 35%;
+  bottom: -5px;
+}
+.happy {
+  font-weight: 700;
+}
+.javed {
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Dancing Script", cursive;
+}
+div {
+  bottom: 10px;
+  position: relative;
+  width: 100%;
 }
