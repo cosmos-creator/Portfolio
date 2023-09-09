@@ -16,8 +16,9 @@ h1 {
   display: block;
   font: 70px bold;
   float: left;
-  width: 35%;
   bottom: -5px;
+  right: 5px;
+  font-family: "Kalam", cursive;
 }
 .happy {
   font-weight: 700;
