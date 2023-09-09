@@ -36,3 +36,24 @@ div {
 footer {
   text-align: center;
 }
+@media (max-width: 480px) {
+  body {
+    width: 95%;
+    font-size: 16px;
+  }
+  .hey {
+    font-size: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    top: -16px;
+    height: 35px;
+  }
+  .javed {
+    font-size: 20px;
+  }
+  .hey-there {
+    display: inline;
+  }
+}
