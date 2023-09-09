@@ -14,7 +14,7 @@ h1 {
 }
 body {
   font-size: 25px;
-  background-image: linear-gradient(#1a1a2e, #144272, #000000, #0f3460);
+  background-image: linear-gradient(#1a1a2e, #0f3460, #000000, #144272);
   text-align: center;
   color: white;
 }
@@ -49,13 +49,26 @@ ul {
     display: block;
     align-items: center;
     justify-content: center;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .skill-div {
+    display: block;
   }
   body {
-    display: flexbox;
-    text-align: start;
+    font-size: small;
+    text-align: left;
   }
-  .heading-2 {
-    width: 100vh;
+  .credits,
+  .information {
     display: block;
+    font-size: 15px;
+    text-align: center;
+  }
+  h1 {
+    margin: 0;
+    padding: 0;
   }
 }
