@@ -42,7 +42,7 @@ ul {
   text-align: justify;
 }
 
-@media (max-width: 392px) {
+@media (max-width: 395px) {
   img {
     height: 200px;
     width: 200px;
