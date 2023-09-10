@@ -14,9 +14,10 @@ h1 {
 }
 body {
   font-size: 25px;
-  background-image: linear-gradient(#5800ff, #0096ff, #00d7ff, #72ffff);
+  background: linear-gradient(#461959, #7a316f, #cd6688, #aed8cc) no-repeat;
   text-align: center;
   color: rgb(0, 0, 0);
+  height: 100%;
 }
 img {
   border-radius: 50%;
